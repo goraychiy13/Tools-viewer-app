@@ -1,0 +1,119 @@
+.container {
+  max-width: 990px;
+  margin: auto;
+}
+
+.ant-layout.layout {
+  min-height: 100vh;
+}
+
+.repositories-wrapper {
+  background: #fff;
+  padding: 24px;
+  min-height: calc(100vh - 188px);
+}
+
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+/* table */
+.ant-table-content > table {
+  padding: 0 15px;
+}
+.ant-table-tbody > tr.ant-table-row:hover {
+  box-shadow: 0px 0px 6px #ccc;
+  cursor: pointer;
+}
+.ant-table-tbody > tr.ant-table-row > td {
+  padding: 24px 16px;
+  background: none;
+  text-align: center;
+}
+.ant-table-tbody > tr.ant-table-row > td:nth-child(1) {
+  text-align: left;
+}
+.ant-table-tbody > tr.ant-table-row > td .type {
+  color: #f9c468;
+}
+.ant-table-tbody > tr.ant-table-row > td .status {
+  border-radius: 30px;
+  height: 18px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  color: #fff;
+}
+.ant-table-tbody > tr.ant-table-row > td .status.status-on {
+  background-color: #00a485;
+}
+.ant-table-tbody > tr.ant-table-row > td .status.status-off {
+  background-color: #999999;
+}
+.ant-table-tbody > tr.ant-table-row:hover > td {
+  border-bottom: 1px solid transparent;
+}
+.ant-table-thead > tr > th {
+  background-color: #fff;
+  color: #67c4bb;
+  font-style: italic;
+  text-align: center;
+}
+.ant-table-thead > tr > th:nth-child(1) {
+  width: 65%;
+  text-align: left;
+}
+.ant-table-thead > tr > th:nth-child(2) {
+  width: 10%;
+}
+.ant-table-thead > tr > th:nth-child(3) {
+  width: 15%;
+}
+.ant-table-thead > tr > th:nth-child(4) {
+  width: 10%;
+}
+.ant-table-column-sorter-up.active, .ant-table-column-sorter-down.active {
+  color: #67c4bb;
+}
+
+
+/* form */
+.ant-form-item {
+  margin-bottom: 0;
+}
+
+
+/* search */
+.ant-input-suffix {
+  position: absolute;
+  left: -10px;
+  transform: scale(1.3);
+  top: 8px;
+  opacity: 1;
+  visibility: visible;
+}
+.ant-input-search-icon::before, .empty-search .ant-input-search-icon {
+  display: none;
+}
+.ant-input-affix-wrapper:hover {
+  border-color:#67c4bb;
+}
+.ant-input-affix-wrapper-focused {
+  box-shadow: 0 0 0 2px #67c4bb30;
+}
+.ant-input-affix-wrapper-focused .ant-input-suffix {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+/* spiner */
+.ant-spin-dot-item {
+  background-color: #67c4bb;
+}
