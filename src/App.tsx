@@ -1,14 +1,13 @@
 import 'antd/dist/antd.css';
 import React, { FunctionComponent } from 'react';
 import './App.css';
-import { ToolsPage } from './Components/tools-page';
-// import { RepositoriesContainer } from './Components/Repositories';
+import { ToolsPageContainer } from './Components/tools-page';
 
 const App: FunctionComponent = () => {
 
   return (
     <div className="container">
-      <ToolsPage />
+      <ToolsPageContainer />
     </div>
   );
 }

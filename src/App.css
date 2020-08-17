@@ -81,6 +81,17 @@
 .ant-table-column-sorter-up.active, .ant-table-column-sorter-down.active {
   color: #67c4bb;
 }
+.ant-table-column-sorters {
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+.ant-table-cell.ant-table-column-sort.ant-table-cell-ellipsis.ant-table-column-has-sorters {
+  background: rgb(250, 250, 250);
+}
+.ant-table-column-sorters-with-tooltip.ant-tooltip-open {
+  background: rgb(247, 247, 247);
+}
 
 
 /* form */
