@@ -10,7 +10,7 @@ jobs:
     - checkout
 
     # Download and cache depandencies
-    - restore cache:
+    - restore_cache:
         keys:
         - v1-dependencies-{{ checksum "package.json" }}
         # fallback to using the latest cache of no exact match is found
