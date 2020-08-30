@@ -1,5 +1,5 @@
 import { Form, Input, Layout, Table } from "antd";
-import React, { useEffect, FunctionComponent } from "react";
+import React, { useEffect, FunctionComponent, useRef } from "react";
 import { connect } from "react-redux";
 import { toolTypes } from "../data/tool-types.data";
 import { Tool, ToolsPageProps } from "../models/tool.model";
@@ -56,9 +56,14 @@ export const ToolsPage: FunctionComponent<ToolsPageProps> = (props) => {
         }
     ];
 
+    const InitialPropA= useRef();
     useEffect(() => {
         props.getTagNames();
-    }, [])
+    }, [props.getTagNames(), InitialPropA]);
+
+    // useEffect(() => {
+    //     props.getTagNames();
+    // }, [])
 
     return (
         <Layout className="layout">
