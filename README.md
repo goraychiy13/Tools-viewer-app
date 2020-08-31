@@ -1,4 +1,4 @@
-Для установки пакетов следует использовать yarn. В проекте для управления стейтамит компонентов используется стейт менеджер React-Redux. Для работы с side effects - Redux-Thunk. Все компоненты - функциональные.
+Для установки пакетов следует использовать yarn. В проекте для управления стейтами компонентов используется стейт менеджер React-Redux. Для работы с side effects - Redux-Thunk. Все компоненты - функциональные.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
