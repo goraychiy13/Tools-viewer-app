@@ -56,14 +56,14 @@ export const ToolsPage: FunctionComponent<ToolsPageProps> = (props) => {
         }
     ];
 
-    const InitialPropA= useRef();
-    useEffect(() => {
-        props.getTagNames();
-    }, [props.getTagNames(), InitialPropA]);
-
+    // const InitialPropA= useRef();
     // useEffect(() => {
     //     props.getTagNames();
-    // }, [])
+    // }, [props.getTagNames(), InitialPropA]);
+
+    useEffect(() => {
+        props.getTagNames();
+    }, [])
 
     return (
         <Layout className="layout">
