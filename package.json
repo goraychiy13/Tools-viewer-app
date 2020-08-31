@@ -39,7 +39,7 @@
       "react-app",
       "plugin:react-hooks/recommended"
     ],
-    "rulse": "eslint-disable-next-line react-hooks/exhaustive-deps"
+    "rules": "eslint-disable-next-line react-hooks/exhaustive-deps"
   },
   "browserslist": {
     "production": [
